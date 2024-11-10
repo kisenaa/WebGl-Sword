@@ -1,0 +1,32 @@
+# Blender 4.2.3 LTS MTL File: 'sword_textured.blend'
+# www.blender.org
+
+newmtl Material
+Ns 889.288940
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.0
+d 1.000000
+illum 3
+map_Kd scratch.jpeg
+
+newmtl Material.001
+Ns 990.025024
+Ka 1.000000 1.000000 1.000000
+Kd 0.801064 0.358588 0.017211
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Material.002
+Ns 250.000000
+Ka 0.743202 0.743202 0.743202
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd leather.jpeg
