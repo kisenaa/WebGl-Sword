@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar WebGL</title>
+    <title>Sword - WebGL</title>
     <script type="text/javascript" src="m4.js"></script>
     <script type="text/javascript" src="MaterialParser.js"></script>
     <script type="text/javascript" src="ObjParser.js"></script>
@@ -12,15 +12,27 @@
     <style>
         canvas {
             width: 100%; /* Full width */
-            height: 50vh; /* Half height of the viewport */
+            height: 70vh; 
         }
+
+        .gradient {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text; /* For Safari */
+            color: transparent; 
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
     </style>
 </head>
 
 <body onload="main()">
+    <div class="gradient">Johannes Daniswara Pratama (5025221276) </div>
     <canvas id="canvas" style="border: 1px solid black;">
         <!-- Canvas fallback content if WebGL is not supported -->
     </canvas>
 </body>
-
 </html>

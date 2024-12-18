@@ -92,8 +92,8 @@ async function main() {
 
   // Load and Parse the object file and materials into javascript objects
   const objHref = './BlenderFiles/cube.obj';
-  const obj = await loadOBJ(gl, objHref);
-  const materials = await loadMaterials(gl, obj, objHref);
+  const obj = await loadOBJ(gl, objHref);                  // See ObjParser.js
+  const materials = await loadMaterials(gl, obj, objHref); // See MaterialParser.js
 
   // Get geometries extend and setup the camera and parts of geometry
   const extents = getGeometriesExtents(obj.geometries);
